@@ -6,25 +6,27 @@
   box-sizing: border-box;
 }
 #area {
+  position: relative;
   width: 282px;
   height: 250px;
   border: 1px solid #000;
   padding-top: 20px;
   line-height: 0;
+  overflow: hidden;
 }
 #pen {
   position: absolute;
   top: 210px;
   width: 50px;
-  height: 10px;
+  height: 5px;
   left: 125px;
   border: 1px solid #008000;
   background: #008000;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
 }
 .box {
   display: inline-block;
@@ -37,4 +39,24 @@
   -o-border-radius: 3px;
   border-radius: 3px;
   background: #ccc;
+}
+.remove {
+  display: inline-block;
+  height: 10px;
+  width: 20px;
+  border: 1px solid transparent;
+  background: transparent;
+}
+#boll {
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background: #f00;
+  position: absolute;
+  left: 136px;
+  top: 200px;
 }
