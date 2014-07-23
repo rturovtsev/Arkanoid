@@ -39,17 +39,17 @@ function start() {
             yWay = 1;
         }
 
-        if (parseInt(boll.style.left) + 5 > parseInt(pen.style.left) && (parseInt(boll.style.left) + 5) <= (parseInt(pen.style.left) + 10) && parseInt(boll.style.top) == 200) {
+        if ( parseInt(boll.style.left) + 10 > parseInt(pen.style.left) && parseInt(boll.style.left) + 10 <= parseInt(pen.style.left) + 15 && parseInt(boll.style.top) == 200 ) {
             xSpeed += 1;
             ySpeed -= 1;
             yWay = -1;
         }
-        if (parseInt(boll.style.left)  > (parseInt(pen.style.left) + 10) && parseInt(boll.style.left)  <= (parseInt(pen.style.left) + 40) && parseInt(boll.style.top) == 200) {
+        if ( parseInt(boll.style.left) + 10  > parseInt(pen.style.left) + 15 && parseInt(boll.style.left) + 10  <= parseInt(pen.style.left) + 45 && parseInt(boll.style.top) == 200) {
             yWay = -1;
         }
-        if (parseInt(boll.style.left) - 5 > (parseInt(pen.style.left) + 40) && (parseInt(boll.style.left) - 5) < (parseInt(pen.style.left) + 50) && parseInt(boll.style.top) == 200) {
+        if ( parseInt(boll.style.left) + 10 > parseInt(pen.style.left) + 45 && parseInt(boll.style.left) + 10 < parseInt(pen.style.left) + 60 && parseInt(boll.style.top) == 200) {
             xSpeed += 1;
-            yspeed -= 1;
+            ySpeed -= 1;
             yWay = -1;
         }
 
